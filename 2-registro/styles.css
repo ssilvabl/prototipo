@@ -1,0 +1,51 @@
+/* styles.css */
+
+/* Estilo del cuerpo de la página */
+body {
+    display: flex; /* Usar flexbox para la disposición */
+    flex-direction: column; /* Dirección de la disposición en columna */
+    min-height: 100vh; /* Altura mínima de la página al 100% del viewport */
+    margin: 0; /* Sin márgenes alrededor del cuerpo */
+    font-family: Arial, sans-serif; /* Fuente más legible */
+}
+
+/* Estilo del contenedor principal */
+main {
+    flex: 1; /* Flexibilidad para ocupar el espacio disponible */
+    display: flex; /* Usar flexbox para el contenedor principal */
+    justify-content: center; /* Centrar el contenido horizontalmente */
+    align-items: center; /* Centrar el contenido verticalmente */
+    padding: 1em; /* Espaciado adicional alrededor del contenido */
+}
+
+/* Estilo de las tarjetas */
+.card {
+    padding: 2em; /* Relleno dentro de las tarjetas */
+    border-radius: 10px; /* Bordes redondeados de las tarjetas */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra sutil para las tarjetas */
+}
+
+/* Estilo del título de las tarjetas */
+.card .card-title {
+    font-size: 2em; /* Tamaño de fuente grande para el título */
+    color: #333; /* Color de texto oscuro */
+    margin-bottom: 0.5em; /* Espaciado debajo del título */
+}
+
+/* Estilo de los párrafos dentro de las tarjetas */
+.card p {
+    color: #777; /* Color de texto gris */
+    margin-bottom: 1em; /* Espaciado debajo del párrafo */
+}
+
+/* Estilo de los botones */
+.btn {
+    width: 100%; /* Botón de ancho completo */
+    background-color: #000; /* Color de fondo negro */
+    border-radius: 5px; /* Bordes redondeados del botón */
+}
+
+/* Estilo de los botones cuando se pasa el ratón por encima */
+.btn:hover {
+    background-color: #333; /* Color de fondo más claro al pasar el ratón */
+}
